@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-label="Morning and evening news arriving in an inbox">
+  <rect width="480" height="360" rx="28" fill="#e8f0fe"/>
+  <circle cx="400" cy="70" r="34" fill="#fbbc04"/>
+  <g stroke="#fbbc04" stroke-width="5" stroke-linecap="round">
+    <line x1="400" y1="18" x2="400" y2="8"/><line x1="452" y1="70" x2="462" y2="70"/><line x1="437" y1="33" x2="444" y2="26"/><line x1="437" y1="107" x2="444" y2="114"/>
+  </g>
+  <path d="M60 78 a26 26 0 1 0 30 -34 a20 20 0 1 1 -30 34z" fill="#5f6368" opacity=".55"/>
+  <rect x="96" y="128" width="288" height="196" rx="20" fill="#1a73e8"/>
+  <path d="M96 150 L240 248 L384 150" fill="none" stroke="#ffffff" stroke-width="10" stroke-linejoin="round"/>
+  <g transform="rotate(-8 190 120)">
+    <rect x="128" y="56" width="140" height="120" rx="12" fill="#ffffff" stroke="#dadce0" stroke-width="3"/>
+    <rect x="144" y="72" width="60" height="12" rx="6" fill="#ea4335"/>
+    <rect x="144" y="94" width="108" height="8" rx="4" fill="#bdc1c6"/>
+    <rect x="144" y="110" width="96" height="8" rx="4" fill="#bdc1c6"/>
+    <rect x="144" y="126" width="104" height="8" rx="4" fill="#bdc1c6"/>
+    <rect x="144" y="146" width="44" height="16" rx="8" fill="#34a853"/>
+  </g>
+  <g transform="rotate(7 300 110)">
+    <rect x="236" y="48" width="140" height="120" rx="12" fill="#ffffff" stroke="#dadce0" stroke-width="3"/>
+    <rect x="252" y="64" width="44" height="12" rx="6" fill="#1a73e8"/>
+    <rect x="252" y="86" width="108" height="8" rx="4" fill="#bdc1c6"/>
+    <rect x="252" y="102" width="88" height="8" rx="4" fill="#bdc1c6"/>
+    <rect x="252" y="118" width="100" height="8" rx="4" fill="#bdc1c6"/>
+    <rect x="252" y="138" width="56" height="16" rx="8" fill="#fbbc04"/>
+  </g>
+  <circle cx="372" cy="300" r="26" fill="#34a853"/>
+  <path d="M360 300 l9 9 l16 -18" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
