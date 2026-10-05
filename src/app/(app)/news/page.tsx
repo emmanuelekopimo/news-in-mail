@@ -43,7 +43,7 @@ export default async function NewsHome() {
               <small>{feed.length} stories in the last 3 days</small>
             </div>
             {top.length === 0 ? (
-              <p className="muted">No stories yet. New stories arrive every 30 minutes.</p>
+              <p className="muted">No stories yet. New stories arrive every 20 minutes.</p>
             ) : (
               top.map((a, i) => <Story key={a.id} article={a} now={at} lead={i === 0} />)
             )}

@@ -19,10 +19,10 @@ const ENTITIES: Record<string, string> = {
 /** Replaces typographic characters the house style does not allow. */
 export function plainPunctuation(s: string): string {
   return s
-    .replace(/[‘’‚′]/g, "'")
-    .replace(/[“”„″]/g, '"')
-    .replace(/[–—―]/g, "-")
-    .replace(/…/g, "...")
+    .replace(/[\u2018\u2019\u201A\u2032]/g, "'")
+    .replace(/[\u201C\u201D\u201E\u2033]/g, '"')
+    .replace(/[\u2013\u2014\u2015]/g, "-")
+    .replace(/\u2026/g, "...")
     .replace(/ /g, " ");
 }
 
@@ -44,7 +44,7 @@ export function cleanExcerpt(raw: string): string {
     .replace(/The post .* appeared first on .*\.?$/i, "")
     .replace(/\s+(Read More|Continue reading)\b.*$/i, "")
     .replace(/https?:\/\/\S+/g, "")
-    .replace(/\[\s*\.\.\.\s*\]|\[…\]/g, "...")
+    .replace(/\[\s*\.\.\.\s*\]|\[\u2026\]/g, "...")
     .trim();
 }
 
